@@ -1,0 +1,104 @@
+.m-center{
+    width: 6.4rem;
+    margin: 0 auto;
+    margin-top: 0.1rem
+}
+section{
+    padding-top: 0
+}
+.jingnei{
+    width: 6.4rem;
+    padding-top: 0.88rem;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 0.2rem;
+    background-color: #ebebeb;
+    line-height: 0.3rem;
+}
+.jingnei h1{
+    float: left;
+}
+.m-left,.m-right{
+    float: left;
+    width: 2.68rem;
+    height: 1px;
+    background-color:#cdcdcd ;
+    margin-top: 0.16rem;
+}
+.m-left{
+    padding-left: 0.5rem;
+    margin-left: 0.1rem;
+}
+.m-center h1,.m-down h1{
+    float: left;
+    font-size: 0.28rem;
+    width: 0.9rem;
+    text-align: center;
+    margin-left: -0.9rem
+}
+.jingnei1{
+    position: relative;
+    overflow: hidden;
+    margin-top: 0.03rem;
+}
+.jingnei1-s{
+    width: 6.4rem;
+    height: 2.98rem;
+    background:url('../images/1.jpg') no-repeat 0 0 ;
+    background-size: cover; 
+}
+.jingnei1-s>p{
+    font-size: 0.3rem;
+    width: 6.4rem;
+    line-height: 0.57rem;
+    background-color:rgba(143,140,135,0.5);
+    color: white;
+}
+.jingnei1-s .jingnei1-b{
+    margin-top: 2.09rem;
+    line-height: 0.33rem;
+    font-size: 0.2rem;
+}
+.price{
+    display: block;
+    width: 0.91rem;
+    height: 0.91rem;
+    border-radius: 50%;
+    border:5px solid white;
+    background-color: #ee661c;
+    position: absolute;
+    top:2.42rem;
+    left: 5.38rem;
+}
+.price>span{
+    display: block;
+    width: 0.91rem;
+    line-height: 0.45rem;
+    text-align: center;
+    font-size: 0.2rem;
+    color: white;
+}
+.p-border{
+    border-bottom: 1px solid rgba(248,179,140,0.5)
+}
+.top>span{
+    width: 2rem;
+    margin-left: 1.8rem 
+}
+.chanpin{
+    padding-top: 0
+}
+.chanpin>h1{
+    width: 1.8rem;
+}
+.more{
+    width: 6.4rem;
+    text-align: center;
+    line-height: 0.58rem;
+    font-size: 0.27rem;
+    background-color: #f1f1f1;
+    color: #959595;
+}
+.more>span{
+    font-size: 0.2rem;
+}

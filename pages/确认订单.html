@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';
+	</script>	
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/together.css">
+	<link rel="stylesheet" type="text/css" href="../css/tianjiayouke.css">
+	<link rel="stylesheet" href="../css/querendingdan.css">
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<div class="top clearfix back">
+				<a href="#"></a>
+				<h2>确认订单</h2>
+			</div>
+			<div class="clearfix">
+				<h2>【爱自驾】<云南落地自驾行摄7天之旅>，
+				各地飞往历史 文化名城云南昆明集合。</h2>
+			</div>
+		</header>
+		<section>
+			<div class="information">
+				<div>
+					<h2>线路信息</h2>
+					<ul>
+						<li>自驾团名称：<span>云南落地自驾行摄之旅</span></li>
+						<li class="clearfix replace">出游日期：<span>2016-01-27</span><a href="#">修改</a></li>
+						<li>出游人数：
+							<span><span>2</span>成人，</span>
+							<span><span>0</span>儿童</span>
+						</li>
+						<li class="house clearfix">
+							<span>房间：</span>
+							<span><span>2人间</span>，愿意拼房</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="information">
+				<div>
+					<h2>联系人信息</h2>
+					<ul>
+						<li>姓名：<span>罗小小</span></li>
+						<li>性别：<span>女</span></li>
+						<li>手机号：<span>18270837892</span></li>
+						<li>证件号：<span>2689326087@qq.com</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="information">
+				<div>
+					<h2 class="clearfix">游客信息 <span class="usually">常用游客</span></h2>
+					<form action="">
+						<ul>
+							<li>姓名：<span>罗小小</span></li>
+							<li>姓名：<span>罗笑笑</span></li>
+						</ul>
+						<a href="#"></a>
+					</form>
+				</div>
+			</div>
+			<div class="information">
+				<div class="bx">
+					<h2>保险</h2>
+					<form action="">
+						<ul>
+							<li class="clearfix">
+								<input type="checkbox" checked>
+								<span>平安爱自家境外长线保险 经典型2份</span>
+								<div class="clearfix">
+									<a href="#">详情></a>
+									<span>￥<span>177</span><span>/一份</span></span>
+								</div>
+							</li>
+							<li class="clearfix">
+								<input type="checkbox" checked>
+								<span>平安爱自家境外长线保险 经典型2份</span>
+								<div class="clearfix">
+									<a href="#">详情></a>
+									<span>￥<span>177</span><span>/一份</span></span>
+								</div>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+			<form action="">
+				<label for="">
+					已阅读并同意爱自驾旅游协议
+				</label>
+			</form>
+		</section>
+		<footer>
+			<div class="clearfix">
+				<div>
+					总费用<span>￥<span>5920</span></span>
+				</div>
+				<a href="#" id="sure">确认，去支付</a>
+			</div>
+			
+		</footer>
+	</div>
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/touch.js"></script>
+	<script src="../js/swiper-3.4.2.min.js"></script>
+	<script>
+		$(".back").tap(function(){
+			window.location.href = "填写订单.html"
+		})
+		$("#sure").tap(function(){
+			window.location.href = "支付方式.html"
+		})
+	</script>
+</body>
+</html>

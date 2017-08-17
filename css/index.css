@@ -1,0 +1,247 @@
+.wrap{
+    width: 6.4rem;
+    margin: 0 auto;
+    margin-bottom: 0.84rem;
+}
+.top{
+    width: 6.4rem;
+    overflow: hidden;
+    background-color: #50bbdb;
+}
+.d-top{
+    width: 2rem;
+    float: left;
+}
+.daohang{
+    overflow: hidden;
+}
+.daohang span{
+    display: block;
+    float: left;
+    overflow: hidden;
+    line-height: 0.88rem;
+    font-size: 0.14rem;
+    color: #fff;
+}
+.daohang span b{
+    padding-left: 0.15rem;
+}
+.daohang span>i{
+    display: block;
+    float: left;
+    width: 56px;
+    height: 56px;
+    font-size: 0.58rem;
+    line-height: 0.56rem;
+    margin-top: 17px;
+    color: #fff;
+}
+.t-nav{
+    float: left;
+    width: 3.27rem;
+    line-height: 0.35rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 0.25rem;
+    font-size: 0.25rem;
+}
+.aizijia{
+    display: block;
+    width: 1.65rem;
+    float: left; 
+    background-color: #fff;
+    color: #44b9da;
+}
+.hudong{
+    display: block;
+    width: 1.62rem;
+    float: left;
+    color: #fff;
+}
+.photo{
+    float: left;
+    margin-left: 0.5rem
+}
+.photo>i{
+    display: block;
+    float: left;
+    width: 0.56rem;
+    height: 0.56rem;
+    font-size:0.56rem;
+    line-height: 0.56rem;
+    margin-top: 0.15rem;
+    color: #fff;
+}
+.banner{
+    width: 6.4rem;
+    height: 3rem;
+    overflow: hidden;
+}
+.m-top{
+    width: 3.43rem;
+    margin: 0 auto;
+    position: relative;
+}
+.search{
+    width: 3.43rem;
+    border:1px solid #51b8d7;
+    border-radius: 0.2rem;
+    line-height: 0.41rem;
+    outline: none;
+}
+.m-top .searchicon{
+    display: block;
+    width: 0.26rem;
+    height: 0.26rem;
+    font-size: 0.26rem;
+    position: absolute;
+    top:0.86rem;
+    left: 3rem;
+    color: #51b8d7;
+}
+.m-center{
+    width: 6.4rem;
+    margin: 0 auto;
+    margin-top: 0.1rem
+}
+.jingnei{
+    width: 6.3rem;
+    margin: 0 auto;
+    margin-bottom: 0.26rem;
+    overflow: hidden;
+}
+.m-left,.m-right{
+    float: left;
+    width: 2.68rem;
+    height: 1px;
+    background-color:#cdcdcd ;
+    margin-top: 0.16rem;
+}
+.jingnei img{
+    display: block;
+    width: 0.93rem;
+    float: left;
+}
+.m-center h1,.m-down h1{
+    float: left;
+    font-size: 0.28rem;
+    width: 0.9rem;
+    text-align: center;
+    margin-left: -0.9rem
+}
+.jingnei1{
+    position: relative;
+}
+.jingnei1-s{
+    width: 6.4rem;
+    height: 2.98rem;
+    background:url('../images/1.jpg') no-repeat 0 0 ;
+    background-size: cover; 
+}
+.jingnei1-s>p{
+    font-size: 0.3rem;
+    width: 6.4rem;
+    line-height: 0.57rem;
+    background-color:rgba(143,140,135,0.5);
+    color: white;
+}
+.jingnei1-s .jingnei1-b{
+    margin-top: 2.09rem;
+    line-height: 0.33rem;
+    font-size: 0.2rem;
+}
+/*.jingnei1-s>p>span{
+    padding-left: 0.3rem;
+}*/
+.price{
+    display: block;
+    width: 0.91rem;
+    height: 0.91rem;
+    border-radius: 50%;
+    border:5px solid white;
+    background-color: #ee661c;
+    position: absolute;
+    top:2.42rem;
+    left: 5.38rem;
+}
+.price>span{
+    display: block;
+    width: 0.91rem;
+    line-height: 0.45rem;
+    text-align: center;
+    font-size: 0.2rem;
+    color: white;
+}
+.p-border{
+    border-bottom: 1px solid rgba(248,179,140,0.5)
+}
+.xianlu{
+    font-size: 0.24rem;
+    line-height: 0.46rem;
+    padding-bottom: 0.18rem;
+}
+.gray-border{
+    border-bottom: 8px solid #f7f2f6;
+}
+.more{
+    width: 6.4rem;
+    text-align: center;
+    line-height: 0.58rem;
+    font-size: 0.27rem;
+    background-color: #f1f1f1;
+    color: #e7631b;
+}
+.more>span{
+    font-size: 0.2rem;
+}
+.m-down{
+    margin-top: 0.1rem;
+}
+.nav{
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    width: 6.4rem;
+    background-color: white;
+}
+.nav ul{
+    overflow: hidden;
+}
+.nav ul li{
+    float: left;
+    font-size: 0.45rem;
+}
+.nav ul li a{
+    display: block;
+    width: 0.43rem;
+    color: #9a9a9a;
+}
+.nav ul li a span{
+    display: block;
+    font-size: 0.18rem;
+    text-align: center;
+    color: black;
+}
+.shouye{
+    margin-left: 0.43rem;
+}
+.woqu{
+    margin-left: 1.2rem;
+}
+.ditu{
+    margin-left: 1.37rem;
+}
+#geren{
+    margin-left: 0.95rem;
+}
+#geren a span,#geren a i{
+    display: block;
+    width: 0.85rem;
+    text-align: center;
+}
+
+.none{
+	display: none;
+}
+

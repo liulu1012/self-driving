@@ -1,0 +1,51 @@
+.wrap{
+	width: 6.4rem;
+}
+.top{
+	width: 6.4rem;
+	line-height: 0.88rem;
+	background-color: #50bbdb;
+	color: white;
+	font-size: 0.54rem;
+	position: fixed;
+	top: 0
+}
+.top>i,.top>span{
+	display: block;
+	float: left;
+}
+.top>span{
+	font-size: 0.26rem;
+	text-align: center;
+	width: 1.2rem;
+	margin-left: 2rem;
+}
+
+section{
+	padding-top: 0.88rem;
+}
+section img{
+	display: block;
+	float: left;
+	width: 1.5rem;
+	margin-left: 0.41rem;
+}
+section h1{
+	float: left;
+	width: 3rem;
+	font-size: 0.28rem;
+	border-bottom: 1px solid #e2e2e2;
+	line-height: 0.6rem;
+	text-align: center;
+	margin-left: 0.46rem;
+	margin-top: 0.62rem
+}
+section p{
+	width: 5.34rem;
+	padding-top: 0.21rem;
+	margin: 0 auto;
+	border:1px solid #f4f4f4;
+	font-size: 0.2rem;
+	line-height: 0.36rem;
+	padding-left: 0.11rem;
+}

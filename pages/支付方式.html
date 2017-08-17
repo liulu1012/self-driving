@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+	<script src="../js/iconfont.js"></script>
+	 <script>
+        (function(){document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';})();
+    </script>
+    <link rel="stylesheet" href="../css/together.css">
+    <link rel="stylesheet" type="text/css" href="../css/zhifufangshi.css">
+   <link rel="stylesheet" type="text/css" href="../css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/swiper-3.4.2.min.css">
+</head>
+<body>
+	<div class="warp">
+		<div class="head clearfix">
+			<a href="querendingdan.html" class='a-icon'>
+				<svg class="icon" aria-hidden="true">
+			
+				<use xlink:href="#icon-fanhui"></use>
+				</svg>
+			</a>
+			<p>确认订单</p>
+
+		</div>
+		<div class="main">
+			<p>订单总额：￥5920</p>
+			<ul>
+				<li class='clearfix'>
+					<img src="../images/1.jpg">
+					<p>支付宝支付</p>
+					<span class='pain'>√</span>
+				</li>
+				<li class='clearfix'>
+					<img src="../images/1.jpg">
+					<p>微信支付</p>
+					<span class='pain'></span>
+				</li>
+				<li class='clearfix'>
+					<img src="../images/1.jpg">
+					<p>银联支付</p>
+					<span class='pain'></span>
+				</li>
+			</ul>
+		</div>
+		<div class="footer">
+			<p><span>支付：￥5920</span><br>剩余<span class='time' id="time"></span>请尽快付款</p>
+			<a href="支付成功.html">付款</a>
+		</div>
+	</div>
+
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/touch.js"></script>
+	<script src="../js/t.js"></script>
+	<script src="../js/y.js"></script>
+	<script src="../js/swiper-3.4.2.min.js"></script>
+	<script src="../js/swiper.animate1.0.2.min.js"></script>
+
+	<script type="text/javascript">
+		$('.pain').tap(function(){
+			var arr=document.querySelectorAll('.pain')
+			for(var i=0;i<arr.length;i++){
+				console.log(arr[i].innerText)
+				arr[i].innerText==''
+			}
+			this.innerText=='√'
+		})
+
+		//倒计时
+		
+		function GetRTime(){
+    var EndTime= new Date('2017/06/13 00:00:00');
+    var NowTime = new Date();
+    var t =EndTime.getTime() - NowTime.getTime();
+    var m=0;
+    var s=0;
+    if(t>=0){
+      m=Math.floor(t/1000/60%60);
+      s=Math.floor(t/1000%60);
+    }
+ 
+ 
+    document.getElementById("time").innerHTML = m + "分" + s +"秒";
+  }
+  setInterval(GetRTime,0);	
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,115 @@
+
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+   color:white;
+}
+.warp{
+	width: 100%;
+	padding-bottom: 2rem;
+	background-color: #fff;
+}
+.head{
+	width: 100%;
+	background-color: #50bbdb;
+	
+}
+.head>p{
+	width: 4.6rem;
+	font-size: 0.4rem;
+	color:white;
+	line-height:0.4rem;
+	text-align: center;
+	float:left;
+	margin-top:0.45rem;
+
+}
+
+.a-icon{
+	color:white;
+	font-size: 0.8rem;
+	display:block;
+	float:left;
+	margin-top: 0.1rem;
+}
+.head>span{
+	display: block;
+	float: right;
+	font-size: 0.3rem;
+	color:white;
+	text-decoration: none;
+	margin-right: 0.1rem;
+	margin-top: 0.5rem;
+}
+/*.main*/
+.main{
+	width: 100%;
+}
+.main>p{
+	width: 100%;
+	font-size: 0.3rem;
+	color:#333333;
+	border-bottom: 1px solid #dcdcdc;
+	line-height: 0.6rem;
+	text-align: center;
+}
+.main>p>span:nth-child(1){
+	color:#4eb9e3;
+}
+.main>ul{
+	width: 100%;
+	list-style: none;
+}
+.main>ul>li{
+	width: 100%;
+	border-bottom: 1px solid #dcdcdc;
+}
+.b-icon{
+	color:#71cae8;
+	font-size: 0.45rem;
+	display:block;
+	float:left;
+	margin-left: 0.2rem;
+	margin-top: 0.15rem;
+}
+.main>ul>li>p{
+	float:left;
+	font-size: 0.3rem;
+	color:#3a3a3a;
+	margin-left: 0.3rem;
+	line-height: 0.8rem;
+}
+.main>ul>li>p>span{
+	display:block;
+	width: 0.3rem;
+	height: 0.3rem;
+	border:1px solid #72c3d6;
+	border-radius: 50%;
+	float:right;
+	margin-top: 0.25rem;
+	margin-left: 4rem;
+
+}
+.footer{
+	width: 100%;
+	position:fixed;
+	bottom:0;
+	left:0;
+	background-color: #50bbdb;
+}
+.c-icon{
+	font-size: 0.4rem;
+	color:white;
+	float:left;
+	margin-top: 0.4rem;
+	margin-left: 1.8rem;
+}
+.footer>p{
+	font-size: 0.3rem;
+	color:white;
+	line-height: 1.2rem;
+	padding-left: 0.2rem;
+	float:left;
+}

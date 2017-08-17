@@ -1,0 +1,159 @@
+header>div:last-child{
+			font-size: 0.26rem;
+			padding: 0.12rem 0;
+}
+header>div:last-child h2{
+	margin: 0 auto;
+	width: 6.04rem;
+	line-height: 0.42rem;
+}
+.information{
+	margin-top: 0.2rem;
+}
+.information>div{
+	width: 6.04rem;
+	margin: 0 auto;
+	border-radius: 0.1rem;
+	font-size: 0.2rem;
+	background-color: #fff;
+	padding-bottom: 0.1rem;
+}
+.information>div h2{
+	border-bottom: 1px solid #dadada;
+	font-size: 0.26rem;
+	font-weight: bold;
+	line-height: 0.5rem;
+	padding-left: 0.35rem;
+	background: url("../images/填写订单hbj_03.png") no-repeat 0.13rem 0.12rem;
+	background-size: 0.04rem 0.27rem;
+}
+.information>div h2 span{
+	margin-right: 0.3rem;
+}
+.information>div ul{
+	list-style: none;	
+}
+.information>div>ul>li{
+	padding-left: 0.38rem;
+	line-height: 0.46rem;
+}
+.replace a{
+	display: block;
+	text-align: center;
+	width: 0.74rem;
+	float: right;
+	text-decoration: none;
+	border:1px solid #cdcdcd;
+	border-radius: 0.06rem;
+	margin-right: 0.5rem;
+	font-size: 0.2rem;
+	line-height: 0.38rem;
+	color: #46c1d3;
+}
+.information>div>ul>li i{
+	font-style: normal;
+	float: right;
+	margin-right: 0.26rem;
+}
+section>div:first-child{
+	margin-top: 0;
+}
+section{
+	padding-top: 0.2rem;
+	background-color: #ededed;
+}
+.house a{
+	text-align: center;
+	width: 0.4rem;
+	float: left;
+	display: block;
+	text-decoration: none;
+}
+.information form li{
+	line-height: 0.44rem;
+	font-size: 0.2rem;
+	border-bottom: 1px solid #dadada;
+}
+.information form{
+	width: 5.38rem;
+	margin: 0 auto;
+}
+.information form>a{
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.08rem;
+	width: 0.37rem;
+	padding-top: 0.37rem;
+	background: url("../images/自驾团填写订单页面abj_07.png") no-repeat;
+	background-size: 100% 100%;
+}
+.usually{
+	float: right;
+	font-weight: normal;
+	color: #4fbcdd;
+	margin-right: 0.36rem;
+}
+.information .bx li{
+	width: 100%;
+	line-height: 0.36rem;
+}
+.information .bx li input{
+	float: left;
+	margin-right: 0.2rem;
+	margin-top: 0.2rem;
+}
+.information .bx li>span{
+	display: block;
+	width: 3.1rem;
+	float: left;
+	color: #252525;
+}
+.information .bx div{
+	float: right;
+	font-size: 0.16rem;
+}
+.information .bx div a{
+	float: right;
+	text-decoration: none;
+	color: #676767;
+
+}
+.information .bx div>span{
+	display: block;
+	color: #f78e1b;
+}
+.information .bx div>span>span:last-child{
+	color: #676767;
+}
+section>form{
+	width: 3rem;
+	margin: 0 auto;
+	font-size: 0.16rem;
+	line-height: 0.68rem;
+}
+footer{
+	padding: 0.16rem 0;
+}
+footer>div{
+	line-height: 0.66rem;
+	width: 6.04rem;
+	margin: 0 auto;
+	font-size: 0.18rem;
+}
+footer>div>div{
+	float: left;
+	color: #e2801f;
+}
+footer>div>div>span{
+	margin-left: 0.1rem;
+}
+footer>div a{
+	display: block;
+	text-decoration: none;
+	float: right;
+	width: 2.36rem;
+	text-align: center;
+	background-color: #50bbdb;
+	color: #fbffff;
+	border-radius: 0.06rem;
+}

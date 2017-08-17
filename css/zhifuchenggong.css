@@ -1,0 +1,66 @@
+header>div:last-child{
+			font-size: 0.22rem;
+			line-height: 0.78rem;
+			border-bottom: 1px solid #dcdcdc;
+		}
+		header>div:last-child span{
+			padding: 0.04rem 0;
+			margin-left: 2.08rem;
+			background: url("../images/支付成功bj_03.png") no-repeat 0 0.02rem;
+			background-size: 0.34rem 0.34rem;
+			padding-left: 0.66rem;
+			color: #48c0e3;
+		}
+		.top a:last-child{
+			text-decoration: none;
+			color: #fffafa;
+			width: 0.52rem;
+			padding-top: 0;
+			margin-right: 0.2rem;
+			float: right;
+			font-size: 0.26rem;
+			background:none;
+		}
+		section ul{
+			padding: 0.1rem 0;
+			list-style: none;
+			font-size: 0.2rem;
+			width: 5.72rem;
+			margin: 0 auto;
+			border-bottom: 1px dashed #dbdbdb;
+		}
+		section ul:last-child{
+			border: 0;
+		}
+		section ul li{
+			line-height: 0.46rem;
+		}
+		section ul li>span{
+			float: right;
+			margin-right: 0.2rem;
+		}
+		footer{
+			padding: 0.16rem 0;
+			background-color: #f6f6f6;
+		}
+		footer p{
+			font-size: 0.2rem;
+			width: 5.72rem;
+			margin: 0 auto;
+			line-height: 0.46rem;
+			margin-bottom: 0.7rem;
+			margin-top: 0.3rem;
+		}
+		footer a{
+			display: block;
+			font-size: 0.24rem;
+			color: #4fbbd8;
+			width: 5.42rem;
+			line-height: 0.7rem;
+			margin: 0 auto;
+			margin-bottom: 1rem;
+			border-radius: 4px;
+			border: 2px solid #e6e6e6;
+			text-decoration: none;
+			text-align: center;
+		}

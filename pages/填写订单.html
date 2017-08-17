@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<title>tianxiedingdan</title>
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth/6.4 + 'px'
+	</script>
+	<link rel="stylesheet" href="../css/together.css">
+	<link rel="stylesheet" href="../css/tijiaodingdan.css">
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<div class="top clearfix">
+				<i class="iconfont back">&#xe630;</i>
+				<a href="#"><span>填写订单</span></a>
+				<i class="iconfont">&#xe63f;</i>
+			</div>
+		</header>
+		<p class="title">【爱自驾】<云南落地自驾行摄7天之旅>,各地飞往历<br>史文化名城云南昆明集合。</p>
+		<section>
+			<div class="xianlu">
+				<div><i class="iconfont">&#xe690;</i><span>线路信息</span></div>
+				<ul>
+					<li>自驾团名称:&nbsp<span>云南落地自驾行摄之旅</span></li>
+					<li>出有日期:&nbsp<span>2016-01-27</span></li>
+					<li>出游人数:&nbsp<span>3</span>成人 <span>0</span>儿童</li>
+					<li id="numf">房间: &nbsp<button id="minus">-</button><input type="text" id="num" value="1"><button id="add">+</button><span>(2人间)</span></li>
+					<li class="last clearfix">
+						<span>是否同意拼房:&nbsp</span>
+						<form>
+							<input type="radio" name="yes" checked>同意
+							<br>
+		            		<input type="radio" name="yes">不同意拼房,愿意支付房差费用￥3500	
+						</form>
+						
+                	</li>
+				</ul>
+			</div>
+			<div class="xianlu">
+				<div class="biaoti clearfix"><i class="iconfont">&#xe690;</i><span>费用说明</span><span>退订规则</span></div>
+				<ul>
+					<li><em>费用包含:</em></li>
+					<li>*+7x24小时优秀中/英双语自驾向导服务(国内出发,全程陪同);</li>
+					<li> *+国内往返美国经济舱机票、燃油附加税、机票税;</li>
+					<li>*+包含好莱坞环球影城+17英里海岸门票;</li>
+					<li> *+美国当地钻酒店住宿;</li>
+					<li class="last">*+美国当地钻酒店住宿1;</li>
+				</ul>
+			</div>
+			<div class="xianlu">
+				<div><i class="iconfont">&#xe690;</i><span>联系人信息</span></div>
+				<form class="list">
+					<div><span>*</span><label for="" id="name">姓名:&nbsp;<input type="text" placeholder="必填"></label></div>
+					<div><span>*</span><label for="">性别:&nbsp;<input type="text"></label><input type="radio" name="sex" id="">男<input type="radio" name="sex" id="">女</div>
+					<div><span>*</span><label for="">手机号码:&nbsp;<input type="text" id="tel"></label></div>
+					<div><span>*</span><label for="" id="mail">邮箱:&nbsp;<input type="text" placeholder="必填,接收合同信息"></label></div>
+				</form>
+			</div>
+			<div class="xianlu">
+				<div><i class="iconfont">&#xe690;</i><span>游客信息</span></div>
+				<a href="常用游客.html" id="changyong">常用游客</a>
+				<form class="list bot">
+					<div><span>*</span><label for="" id = "name1">姓名:&nbsp;<input type="text" placeholder="必填"></label></div>
+					<div><span>*</span><label for="">证件类型:&nbsp;
+						<form>
+							<select>
+								<option value="身份证">身份证</option>
+								<option value="驾驶证">驾驶证</option>
+								<option value="户口本">户口本</option>
+							</select>
+						</form>	
+					</div>
+
+				</form>
+				<div class="more"><i class="iconfont">&#xe639;</i></div>
+			</div>
+			<div class="xianlu">
+				<div><i class="iconfont">&#xe690;</i><span>保险</span></div>
+				<div class="list clearfix">
+					<div class="check">
+						<div class="diamonds"><i class="iconfont">&#xe6ae;</i></div>
+						<p>平安爱自驾境外长线保险 经典型<br><span>2份</span></p>
+						<div class="right">
+							<a href="#">详情></a>
+							<p>￥<span>177</span>/一份</p>
+						</div>
+					</div>
+					<div class="check c-last">
+						<div class="diamonds"><i class="iconfont">&#xe6ae;</i></div>
+						<p>平安爱自驾境外长线保险 经典型<br><span>2份</span></p>
+						<div class="right">
+							<a href="#">详情></a>
+							<p>￥<span>177</span>/一份</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p><input type="checkbox">已阅读并同意爱自驾旅游协议</p>
+		</section>
+		<footer class="tijiao">
+			<div>
+				<p>总费用￥<span>5920</span></p>
+				<input type="button" value="提交订单" id="sure" disabled>
+			</div>
+			
+		</footer>
+	</div>
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/touch.js"></script>
+	<script src="../js/swiper-3.4.2.min.js"></script>
+	<script src="../js/tianxiedingdan.js"></script>
+	<script>
+		$(".back").tap(function(){
+			window.location.href = "自驾团.html"
+		})
+		$("#sure").tap(function(){
+			var name = document.getElementById('name');
+			console.log(name.value)
+			var mail = document.getElementById("mail").innerText;
+			var name1 = document.getElementById("name1").innerText;
+			if(name!=""&&mail!=""&&name1!=""){
+				console.log(1)
+				// window.location.href = "确认订单.html"
+			}
+			
+		})
+	</script>
+</body>
+</html>

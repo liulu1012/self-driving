@@ -1,0 +1,222 @@
+.wrap{
+	width: 6.4rem;
+}
+.top{
+	width: 6.4rem;
+	line-height: 0.88rem;
+	background-color: #50bbdb;
+	font-size: 0.54rem;
+	position: fixed;
+	top: 0
+}
+
+.top a{
+	display: block;
+	width: 1.93rem;
+	margin-left: 1.69rem;
+	float: left;
+	font-size: 0.26rem;
+	text-align: center;
+	margin-top: 0.12rem;
+	color: white;
+}
+.top i{
+	display: block;
+	float: left;
+	color: white;
+}
+.top i:last-child{
+	float: right;
+}
+.top>a>span{
+	display: block;
+	line-height: 0.38rem;
+	font-size: 0.26rem;
+}
+.top>a>span:last-child{
+	font-size: 0.14rem;
+}
+section{
+	padding-top: 0.91rem;
+}
+section>div{
+	width: 6.4rem;
+}
+section>div>a{
+	display: block;
+	float: left;
+	width: 1.8rem;
+	font-size: 0.16rem;
+	line-height: 0.31rem;
+	padding-top: 1.37rem;
+	text-align: center;
+	background: url('../images/1.jpg');
+	background-size: cover;
+}
+section>div>a>span{
+	display: block;
+	width: 1.8rem;
+	background-color: rgba(105,116,136,0.5);
+	color: white;
+}
+section>div>div{
+	width: 4.47em;
+	float: left;
+}
+section>div>div h2,section>div>div p,section>div>div span,.julebu{
+	font-size: 0.22rem;
+}
+section>div>div>span{
+	display: block;
+	font-size: 0.2rem;
+	color: #c4c4c4;
+}
+
+section>div>div h2{
+	margin-top: 0.13rem;
+	line-height: 0.22rem;
+}
+section>div>div p{
+	line-height: 0.57rem;
+	margin-top: 0.02rem;
+}
+section>div>div>span{
+	line-height: 0.19rem;
+}
+.txt{
+	margin-left: 0.13rem;
+}
+.txt>h2>span{
+	font-weight: bolder;
+}
+.julebu{
+	overflow: hidden;
+	margin-top: 0.08rem;
+}
+.julebuicon{
+	line-height: 0.38rem;
+	float: left;
+}
+.bigicon{
+	font-size: 0.38rem;
+	color: orange
+}
+.bigicon+span{
+	font-size: 0.18rem;
+}
+.price-icon{
+	line-height: 0.46rem;
+	float: right;
+	margin-right: 0.2rem;
+	color: #e95622;
+}
+.price-icon>a{
+	color: #e95622;
+}
+.price-icon>span{
+	font-size: 0.18rem;
+}
+.smallicon{
+	font-size: 0.16rem;
+	line-height: 0.38rem;
+}
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 6.4rem;
+    background-color: white;
+}
+.nav ul{
+    overflow: hidden;
+}
+.nav ul li{
+    float: left;
+    font-size: 0.45rem;
+    margin-left: 0.83rem;
+}
+.nav ul li a{
+    display: block;
+    width: 0.85rem;
+    text-align: center;
+    color: #9a9a9a;
+}
+.nav ul li a span{
+    display: block;
+    font-size: 0.18rem;
+    text-align: center;
+    color: black;
+}
+.nav ul .city{
+	margin-left: 0.28rem;
+}
+.gray{
+	width: 6.4rem;
+	background-color: #f1f1f1;
+	padding-top: 0.17rem;
+}
+
+
+
+/*//选项卡*/
+.tab{
+	font-size: 0.22rem;
+	overflow: hidden;
+	display: none;
+}
+.nav-tab{
+	padding-left: 0.3rem;
+	line-height: 0.7rem;
+	background-color: #50bbdb;
+}
+.nav-tab li{
+	float: left;
+}
+.nav-tab li a{
+	color: white
+}
+.qingkong{
+	margin:0 2rem 0 2rem;
+}
+.tab-down{
+	width: 6.4rem;
+}
+.list{
+	width: 1.95rem;
+	float: left;
+	line-height: 0.68rem;
+	padding-bottom:0.68rem;background-color: #ebebeb;
+}
+.list li{
+	padding-left: 0.3rem;
+	
+}
+.white{
+	background-color: white;
+	color: #50bedf;
+}
+#show{
+	width: 4.42rem;
+	float: left;
+}
+#show ul{
+	width: 4.12rem;
+	margin: 0 auto;
+}
+#show ul li{
+	line-height: 0.68rem;
+	border-bottom: 1px solid #d9d9d9;
+}
+#show ul li span{
+	padding-left: 0.63rem;
+	display: block;
+	float: left;
+}
+#show ul li input{
+	float: right;
+	display: block;
+	width: 0.33rem;
+	margin-top: 0.25rem;
+}
+.none{
+	display: none;
+}

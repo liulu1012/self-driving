@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<title>Document</title>
+	<script src="../js/iconfont.js"></script>
+	 <script>
+        (function(){document.documentElement.style.fontSize = document.documentElement.clientWidth / 6.4 + 'px';})();
+    </script>
+    <link rel="stylesheet" href="../css/together.css">
+    <link rel="stylesheet" type="text/css" href="../css/gerenzhongxin.css">
+    <link rel="stylesheet" type="text/css" href="../css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/swiper-3.4.2.min.css">
+</head>
+<body>
+	<div class="warp">
+		<div class="head clearfix">
+			<a href="填写订单.html" class='a-icon'>
+				<svg class="icon" aria-hidden="true">
+					<use xlink:href="#icon-fanhui"></use>
+				</svg>
+			</a>
+			<p>选择常用游客</p>
+			<span>确定</span>
+		</div>
+		<div class="main">
+			<p>已选择
+				<span>0</span>
+				/
+				<span>2</span>
+				旅客
+			</p>
+			<ul>
+				<li class='clearfix'>
+						<svg class="icon b-icon" aria-hidden="true">
+						<use xlink:href="#icon-shenhebijijishibenxiezi">
+							
+						</use>
+						</svg>
+					
+					<p>罗笑笑
+						<span></span>
+					</p>	
+				</li>
+				<li class='clearfix'>
+					<a href=''>
+						<svg class="icon b-icon" aria-hidden="true">
+						<use xlink:href="#icon-shenhebijijishibenxiezi">
+							
+						</use>
+						</svg>
+					</a>
+					<p>罗笑笑
+						<span></span>
+					</p>	
+				</li>
+			</ul>
+		</div>
+		<div class="footer">
+			<svg class="icon c-icon" aria-hidden="true">
+						<use xlink:href="#icon-jiahao">
+							
+						</use>
+			</svg>
+			<p>添加常用游客</p>
+		</div>
+	</div>
+
+
+	<script src="../js/zepto.min.js"></script>
+	<script src="../js/touch.js"></script>
+	<script src="../js/t.js"></script>
+	<script src="../js/y.js"></script>
+	<script src="../js/swiper-3.4.2.min.js"></script>
+	<script src="../js/swiper.animate1.0.2.min.js"></script>
+	<script type="text/javascript">
+	//点击添加
+		$('.footer').tap(function(){
+			var li=document.createElement('li')
+			var txt=document.querySelector('li').innerHTML
+			
+			li.innerHTML=txt
+			document.querySelector('ul').appendChild(li)
+		})
+
+	</script>
+	
+</body>
+</html>
